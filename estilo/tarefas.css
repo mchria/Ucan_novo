@@ -1,0 +1,166 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /*Letters*/
+  a {
+  color: #000000;
+  text-decoration: none;  
+  }
+  
+  /*Header*/
+  
+  header{
+    color: #000000;
+    background-color: #cecaf7;  /* Blue */
+    padding: 0px 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+  header a {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .menu-container {
+    height: 100px;
+   /* border: 1px solid #000000; */
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  }
+  
+  .ucan {
+   /* padding-top: 20px; */
+    display: flex;
+    justify-content: flex-start;    
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+    font-family: "Kodchasan", serif;
+    font-size: 45px;
+  }
+  
+ header nav {
+    display: flex;
+    justify-content: flex-end;    
+    font-size: 20px;
+  }
+  
+ header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;    
+    font-size: 20px;
+  }
+  
+  header form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  p{
+    margin-top: 30px;
+    text-align: justify;
+    font-family: "Crinsom Text";
+    font-size: 25px;
+  }
+  
+  main { 
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+  flex-direction: row;
+  }
+
+  /* Tarefas */
+
+.tarefas{
+  display: flex;
+  flex-direction: row;
+}
+.lateral{
+  margin: 0px;
+  background-color:#CFE5FC;
+  display: block;
+  padding: 0px;
+  width: 300px;
+  height: 558px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+aside h2{
+  color:#000000;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+aside ul{
+  display: flex;
+  flex-direction: column;
+}
+
+aside li{
+ background-color: #f8f8f7;
+ margin: 15px;
+ padding: 15px;
+ width: 260px;
+ border-radius: 15px;
+ text-align: center;
+}
+
+aside nav{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bemvindo{
+  display: flex;
+  padding-left: 250px;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.concluido{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 600px;
+  padding-top: 50px;
+  text-align: center;
+}
+.tare{
+  
+    color: #1a618a;
+    display: flex;
+    justify-content: center;
+    background-color: #CFE5FC;
+    padding: 40px;
+    border-radius: 15px;
+    height: 150px;
+    width: 240px;
+    flex-direction: row;
+ 
+}
+
+
+.aa{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  background-color: #1F96DB;
+  width: 70px;
+  padding: 7px;
+  border: none;
+  border-radius: 5px;
+}

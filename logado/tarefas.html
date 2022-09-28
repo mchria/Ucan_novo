@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Ucan</title>
+    <link href="/estilo/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <div class='menu-container'>
+            <div class='ucan'>Ucan</div>
+            <nav id="nav-principal">
+                <ul>
+                    <li><a href='tarefas.html'>Tarefas</a></li>
+                    <li><a href='dicas.html'>Dicas de saúde</a></li>
+                    <li><a href='/logado/CalendarPickerJS-master/example.html'>Calendário</a></li>
+                    <li><a href='perfil.html'>Perfil</a></li>
+                    <li><a href='/index.html'>Sair</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class='tarefas'>
+        <aside class='lateral'>
+            <h2>Minhas tarefas</h2>
+
+            <nav>
+                <ul>
+
+                    <li><input type="checkbox" id="t" name="t1">
+                        <label><a href='visualizar.html'>Tarefa 1 </label></a>
+                    </li>
+
+                    <li><input type="checkbox" id="t" name="t2">
+                        <label><a href='visualizar.html'>Tarefa 2 </label>
+                        </a>
+                    </li>
+
+                    <li><input type="checkbox" id="t" name="t3">
+                        <label><a href='visualizar.html'>Tarefa 3 </label>
+                        </a>
+                    </li>
+
+                    <li><input type="checkbox" id="t" name="t4">
+                        <label><a href='visualizar.html'>Tarefa 4 </label>
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+        </aside>
+
+        <div class='bemvindo'>
+            <h1>Bem vindo, @</h1>
+            <br>
+            <h2>Aprenda a criar hábitos positivos com tarefas simples</h2>
+
+            <div class="concluido">
+                <div class="tare">
+                    <h2> 00 Tarefas concluidas</h2>
+                </div>
+                <div class="tare">
+                    <h2> 04 Tarefas pendentes</h2>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+
+    <script src="../firebase.js"></script>
+
+</body>
+
+</html>
